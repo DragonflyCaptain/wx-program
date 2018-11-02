@@ -1,0 +1,8 @@
+<!--pages/Video/video.wxml-->
+<!-- <text>pages/Video/video.wxml</text> -->
+<!-- <view wx:for="{{video}}" wx:key="{{index}}">
+    <video src='{{item.playUrl}}' ></video>
+</view> -->
+<view class='video'>
+  <video src='{{video}}' class='resources' autoplay='{{true}}'></video>
+</view>

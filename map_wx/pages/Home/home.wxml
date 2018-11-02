@@ -1,0 +1,32 @@
+<view>
+  <view id='shuffling'>
+      <swiper 
+        indicator-dots="true"
+        autoplay="true" 
+        interval="{{interval}}" 
+        duration="{{duration}}" 
+        circular='true' 
+        class='slider'
+        >
+        <block wx:for="{{imgUrls}}"  wx:key="{{index}}">
+          <swiper-item>
+            <image bindtap='click_' data-test='{{index}}' src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+  <view id='select'> 
+      <!-- <view wx:for="{{6}}">
+        <button class='btn'>{{item}}</button>
+      </view> -->
+      <!-- <view> -->
+          <image src='../../img/movie.png' mode='scaleToFill' class='img' bindtap='goToMovie'></image>
+          <image src='../../img/Courier.png'  mode='scaleToFill' class='img' bindtap='goToNews'></image>
+          <image src='../../img/WX20180904-180252@2x.png' mode='scaleToFill' class='img'></image>
+          <image src='../../img/WX20180904-180252@2x.png' mode='scaleToFill' class='img'></image>
+          <image src='../../img/WX20180904-180252@2x.png' mode='scaleToFill' class='img'></image>
+          <image src='../../img/WX20180904-180252@2x.png' mode='scaleToFill' class='img'></image>
+      <!-- </view> -->
+      
+  </view>
+</view>

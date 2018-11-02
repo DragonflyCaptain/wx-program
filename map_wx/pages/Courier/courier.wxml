@@ -1,0 +1,5 @@
+<!-- 快递查询页面 -->
+<view>
+    <input placeholder='输入快递单号' focus="{{focus}}" type='number' bindinput="input"></input>
+    <button bindtap='find'>查询</button>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages":[
+    
+    "pages/Home/home",
+    "pages/index/index",
+    "pages/test/test",
+    "pages/Movie/movie",
+    "pages/Video/video",
+    "pages/Courier/courier",
+    "pages/MovieDetail/movieDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Promise",
+    "navigationBarTextStyle":"black"
+  },
+  "tarBar": {
+    "list": [{
+      "pagePath": "pages/Home/home",
+      "text": "Home"
+    },{
+      "pagePath": "pages/Movie/movie",
+      "text": "Movie"
+    },{
+      "pathPath": "pages/MovieDetail/movieDetail",
+      "text": "movieDetail"
+    }]
+  }
+}

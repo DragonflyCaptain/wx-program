@@ -1,0 +1,14 @@
+<!-- <view>我是豆瓣页面</view> -->
+<view wx:for="{{movie}}" wx:key="{{index}}">
+  <view class='movie' bindtap='detailPage' data-item='{{item}}'>
+      <view id='left'>
+          <image src='{{item.images.small}}' mode='scaleToFill'></image>
+      </view>
+      <view id='right'>
+          <text class='title'>片名:{{item.title}}\n</text>
+          <text class='title'>时间:{{item.durations[0]||item.durations[1]}}\n</text>
+          <text class='title'>评分:{{item.rating.average}}\n</text>
+          <text class='title'>上映时间:{{item.pubdates[2]||item.pubdates[1]||item.pubdates[0]}}\n</text>
+      </view>
+  </view>
+</view>

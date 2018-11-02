@@ -1,0 +1,12 @@
+/* pages/Video/video.wxss */
+.video{
+  width: 95%;
+  /* height: 400rpx; */
+  background: rgb(60, 52, 53);
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  align-items: center;
+}

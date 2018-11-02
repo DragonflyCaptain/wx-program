@@ -1,0 +1,27 @@
+.movie{
+  width: 95%;
+  height: 280rpx;
+  /* background: pink; */
+  margin-bottom: 20rpx;
+  display: flex;
+  margin-left: 18rpx;
+  border-radius: 10rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #c5c1c1;
+}
+#left{
+  flex: 2;
+  /* background: red; */
+}
+#right{
+  flex: 3;
+  /* background: cyan; */
+}
+.movie image{
+  width: 260rpx;
+  height: 260rpx;
+  margin-top: 10rpx;
+  margin-left: 13rpx;
+}
+.title{
+  font-size: 30rpx;
+}
